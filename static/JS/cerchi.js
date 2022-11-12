@@ -15,6 +15,7 @@ function draw() {
   let green = random(0, 255)
   let black = random(0,255)
   let alpha = random(0, 255)
+  noStroke()
 
   circle(x, y, diameter)
   strokeWeight(1)
